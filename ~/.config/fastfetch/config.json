@@ -1,0 +1,15 @@
+{
+    "logo": {
+        "type": "ascii",
+        "source": "arch",
+        "colors": ["152","152","152","152","152","152"]
+    },
+    "color": {
+        "keys": "152",
+        "title": "152"
+    },
+    "modules": [
+        "title", "os", "host", "kernel", "uptime",
+        "packages", "shell", "terminal", "cpu", "colors"
+    ]
+}
