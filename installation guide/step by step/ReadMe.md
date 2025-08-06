@@ -16,7 +16,7 @@ You may need Ethernet cable for wifi but there is other way (iwctl)
 
 ## Phase 2: Setup Arch from USB
 1. ```loadkeys <language>``` to change keyboard layout ```loadkeys us``` changes to US layout
-2. Partition disk:
+### Partition disk:
   - ```lsblk``` to see the disk partition
   - ```cfdisk <disk directory> ``` so if ```lsblk``` shows similar result in example below then run ```cfdisk /dev/sda``` but cfdisk should work with sda. Or nvme0n1, then run ```cfdisk /dev/nvme0n1```
 <img width="867" height="291" alt="image" src="https://github.com/user-attachments/assets/20109b61-cb7b-47c3-9adc-a15cbb392579" />
