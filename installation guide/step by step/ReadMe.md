@@ -21,10 +21,10 @@ You may need Ethernet cable for wifi but there is other way (iwctl)
   - ```cfdisk <disk directory> ``` so if ```lsblk``` shows similar result in example below then run ```cfdisk /dev/sda``` but cfdisk should work with sda. Or nvme0n1, then run ```cfdisk /dev/nvme0n1```
 <img width="867" height="291" alt="image" src="https://github.com/user-attachments/assets/20109b61-cb7b-47c3-9adc-a15cbb392579" />
 
-  3. Go to Free Space section, New, and create 100M, 4G, rest of the storage (root)
-  4. Write the partition & quit
+  - Go to Free Space section, New, and create 100M, 4G, rest of the storage (root)
+  - Write the partition & quit
 3. Format partition disk: Refer to ```lsblk``` for disk partition name
-  1. ```mkfs.ext4 <root disk>``` this is the one using the rest of the storage when you set up in step 3 of Partition disk
+  - ```mkfs.ext4 <root disk>``` this is the one using the rest of the storage when you set up in step 3 of Partition disk
 4. 
 
 
