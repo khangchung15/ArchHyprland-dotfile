@@ -1,5 +1,6 @@
 ## Important things!
 You need a USB disk to make a bootable drive for Arch
+
 You may need Ethernet cable for wifi but there is other way (iwctl)
 
 ## Phase 1: Pre-Installation
