@@ -25,7 +25,7 @@ Once you boot into Arch, we need to set it up in our system since Arch only curr
 1. Partition disk: If dual boot with Windows, the first 3-4 partition is Windows
   - ```lsblk``` to see the disk partition
   - ```cfdisk <disk directory> ``` so if ```lsblk``` shows similar result in example below then run ```cfdisk /dev/sda``` but cfdisk should work with sda. Or if you have nvme0n1, then run ```cfdisk /dev/nvme0n1```
-<img width="856" height="253" alt="image" src="https://github.com/user-attachments/assets/6a3b22a6-1701-4a2c-9b71-208a47d75553" />
+    <img width="856" height="253" alt="image" src="https://github.com/user-attachments/assets/6a3b22a6-1701-4a2c-9b71-208a47d75553" />
 
 
   - Go to Free Space section, New, and create 100M (boot), 4G (swap), rest of the storage (root)
