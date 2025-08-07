@@ -23,8 +23,4 @@ Congrats, you have been convinced that Arch is superior. Now let's install Arch 
 - Don’t panic if things break, that’s how you learn. The Arch Wiki is your bible and the terminal is your playground.
 - Also, feel free to say "I use Arch, btw" to strangers you met
 
-## Installation Guide: Hyprland & Dependencies
-```sudo pacman -S hyprland kitty waybar rofi grim slurp swaybg swaylock-effects firefox```
-
----
 [Arch Wiki](https://archlinux.org/) can contain useful documentations
