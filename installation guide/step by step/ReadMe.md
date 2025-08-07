@@ -107,4 +107,4 @@ This is the section for dual boot Windows and Arch
 3. Enable os prober
   - ```sudo nano /etc/default/grub```
   - Delete ```#``` from ```GRUB_DISABLE_OS_PROBER=false```
-4. Regenerate grub config: ```sudo grub-mkconfig -o /boot/grub/grub.cfg```
+4. Regenerate grub config: ```sudo grub-mkconfig -o /boot/grub/grub.cfg``` | Now, it should says Windows EFI/boot detected
